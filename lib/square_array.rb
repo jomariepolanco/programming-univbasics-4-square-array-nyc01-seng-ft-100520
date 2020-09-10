@@ -1,8 +1,10 @@
 def square_array(array)
   # your code here
   new_array = []
-  array.collect { |i| 
-    new_array.push(i ** 2)
-  }
+  counter = 0 
+  while array[counter] do 
+    new_array.push(array[counter] ** 2)
+    counter +=1 
+  end 
   new_array
 end
