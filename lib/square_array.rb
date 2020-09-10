@@ -3,6 +3,6 @@ def square_array(array)
   new_array = []
   array.collect { |i| 
     new_array.push(i ** 2)
-  end 
+  }
   new_array
 end
